@@ -22,7 +22,8 @@ body {
 .nav-logo {
   font-size: 1.6rem;
   font-weight: 700;
-  color: #8b5cf6;
+  color:   linear-gradient(90deg, #a5b4fc 20%, #6ee7b7 40%, #f094fb 60%, #8b5cf6 100%);
+
   letter-spacing: 2px;
 }
 .nav-links {
