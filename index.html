@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400|DM+Sans:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--  ------------------------ navabr section ----------- -->
+  <nav class="navbar">
+    <div class="nav-logo">ABHINAV</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!--  ------------------- hero ------------------------ -->
+
+ <section id="hero" class="hero-section">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>
+        <span class="moving-text"></span>
+      </h1>
+      <p class="subtitle">A modern, animated portfolio website.</p>
+      <a href="#contact" class="cta-btn">Contact Me</a>
+    </div>
+    <div class="hero-image">
+      <img src="/assets/my-photo.jpeg" alt="Abhinav Thakur" class="profile-img">
+    </div>
+  </div>
+</section>
+<!-- --------------about --------------------- -->
+  <section id="about" class="about-section section">
+    <h2>About Me</h2>
+    <p class="p-1">Passionate and creative aspiring developer with a keen interest in modern design and building user-friendly experiences. Eager to learn, grow, and contribute to real-world projects."</p>
+  </section>
+
+  <!-- ---------------project section----------- -->
+  <section id="projects" class="projects-section section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <!-- Project Card 1 -->
+        <div class="project-card">
+            <div class="project-content">
+                <img src="/assets/e-commerce.png" alt="Project 1" class="project-image">
+                <h3>E-Commerce Website</h3>
+                <p>A full-stack e-commerce platform with user authentication and payment integration.</p>
+                <div class="tech-stack">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link">Live Demo</a>
+                    <a href="#" class="project-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+              <img src="/assets/Movie raing.png" alt="Project 1" class="project-image">
+              <h3> Movie rating Website</h3>
+              <p>A full-stack movie raing  platform with user Watch  and rate the movie  integration.</p>
+              <div class="tech-stack">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>MongoDB</span>
+              </div>
+              <div class="project-links">
+                  <a href="#" class="project-link">Live Demo</a>
+                  <a href="#" class="project-link">GitHub</a>
+              </div>
+          </div>
+      </div>
+
+        <!-- Repeat for other projects with different content -->
+    </div>
+</section>
+
+<!-- .........skill section ------------- ................... -->
+  <section id="skills" class="skills-section section">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>UI/UX</span>
+      <span>Animation</span>
+    </div>
+  </section>
+
+<!--  ............Contact scetion ................ -->
+<section id="contact" class="contact-section section">
+  <h2 class="contact-title">Contact</h2>
+  <div class="contact-container">
+      <form class="contact-form">
+          <div class="form-group">
+              <input type="text" placeholder="Your Name" required class="form-input" />
+          </div>
+          <div class="form-group">
+              <input type="email" placeholder="Your Email" required class="form-input" />
+          </div>
+          <div class="form-group">
+              <textarea placeholder="Your Message" required class="form-input"></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+  </div>
+</section>
+<!--  -----------footer section ------------------------ -->
+<footer class="footer">
+  <div class="container">
+      <div class="row gy-4 justify-content-between">
+          <!-- Logo and About -->
+          <div class="col-md-4">
+              <div class="footer-logo">
+                  <h3>ABHINAV</h3>
+                  <p class="mt-3">Modern Full Stack Developer creating innovative web solutions with cutting-edge technologies.</p>
+              </div>
+          </div>
+          
+          <!-- Contact Info -->
+          <div class="col-md-4">
+              <h4>Contact Info</h4>
+              <ul class="footer-contact">
+                  <li>
+                      <i class="fas fa-map-marker-alt"></i>
+                      <span>123 Developer Street, Code City, IN 12345</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-envelope"></i>
+                      <a href="mailto:abhinav@example.com">abhinav@example.com</a>
+                  </li>
+                  <li>
+                      <i class="fas fa-phone"></i>
+                      <a href="tel:+1234567890">+123 456 7890</a>
+                  </li>
+              </ul>
+          </div>
+          
+          <!-- Social Links -->
+          <div class="col-md-4">
+              <h4>Follow Me</h4>
+              <div class="social-links">
+                  <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                  <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                  <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+      
+      <!-- Copyright -->
+      <div class="row mt-4">
+          <div class="col-12">
+              <div class="footer-bottom">
+                  <p>&copy; 2025 ABHINAV THAKUR. All rights reserved.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="main.js"></script>
+</body>
+</html>
