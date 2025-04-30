@@ -26,6 +26,10 @@ function typeAnimation() {
 }
 typeAnimation();
 
+
+
+
+
 // Reveal sections on scroll
 const hiddenSections = document.querySelectorAll('.section');
 const sectionObserver = new IntersectionObserver(entries => {
@@ -47,6 +51,26 @@ navLinks.forEach(link => {
       document.querySelector(href).scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   });
+});
+
+// Fix navbar on scroll
+window.addEventListener('scroll', function() {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 50) {
+        navbar.style.background = 'rgba(33, 36, 69, 0.98)';
+    } else {
+        navbar.style.background = 'rgba(33, 36, 69, 0.95)';
+    }
+});
+
+// Smooth scroll for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
 
 //  navbar animation script ----------
