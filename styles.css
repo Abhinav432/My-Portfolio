@@ -5,7 +5,7 @@ body {
   font-family: 'DM Sans', 'Montserrat', Arial, sans-serif;
   background: #252641;
   color: #f2f2fa;
-  padding-top: 76px; /* Height of fixed navbar */
+  padding-top: 7px; /* Height of fixed navbar */
 }
 /*  -------------nav bar CSS --------------- */
 
@@ -24,9 +24,11 @@ body {
 .nav-logo {
   font-size: 1.6rem;
   font-weight: 700;
-  color: linear-gradient(90deg, #9ea4c5 20%, #6ee7b7 40%, #f094fb 60%, #8b5cf6 100%);
-
+  background: linear-gradient(90deg, #5566c7 20%, #6ee7b7 40%, #f094fb 60%, #8b5cf6 100%) transparent; 
   letter-spacing: 2px;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .nav-links {
   list-style: none;
@@ -60,7 +62,6 @@ body {
 /* --------------hero section css------------------------------ */
 .hero-section {
   height: 92vh;
-  margin-top: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
